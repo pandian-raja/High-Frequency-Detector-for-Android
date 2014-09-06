@@ -97,9 +97,7 @@ public class MainActivity extends Activity {
 				recordingProgress.setVisibility(View.INVISIBLE);
 				statusText.setText("Listening Stops...");
 				if(audioRec.getRecordingState()==AudioRecord.RECORDSTATE_RECORDING){
-					Toast.makeText(getApplicationContext(), "Recording!!!", Toast.LENGTH_SHORT).show();
 					isRecording=false;
-
 				}
 			}
           });
