@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">High Frequncy Detector</string>
+    <string name="action_settings">Settings</string>
+ 	<string name="SampleRate">44100</string>
+    <string name="BufferSize">2048</string>
+  
+</resources>
